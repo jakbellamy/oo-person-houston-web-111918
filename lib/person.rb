@@ -7,7 +7,7 @@ class Person
         @happiness = 8
         @hygiene = 8
     end
-    
+
     def name
         @name
     end
@@ -49,7 +49,7 @@ class Person
     end
 
 
-    def clean? 
+    def clean?
         if @hygiene > 7
             true
         else
@@ -77,7 +77,7 @@ class Person
     end
 
     def take_bath
-        self.hygiene += 4 
+        self.hygiene += 4
         "♪ Rub-a-dub just relaxing in the tub ♫"
     end
 
