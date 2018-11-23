@@ -81,13 +81,11 @@ class Person
         "♪ Rub-a-dub just relaxing in the tub ♫"
     end
 
-    def call_friend(name)
+    def call_friend(friend_name)
         self.happiness += 3
        #binding.pry
-        name.happiness += 3
-        name.happiness
-
-        "Hi #{name.name}! It's #{self.name}. How are you?"
+        friend_name.happiness += 3
+        "Hi #{friend_name.name}! It's #{self.name}. How are you?"
 
     end
 
